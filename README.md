@@ -16,7 +16,8 @@ The ontology consists of several entities: the metadata for the codes, the metad
 ## Projects
 
 ## Publications
-These metadata help to identify the publication. In my prototype I do not want to implement a complete literature management, only basic information, so people can search for the publication.
+These metadata help to identify the publication. In my prototype I do not want to implement a complete literature management, only basic information, so people can find the publication.
+
 |Name   |Description   |Link to standard vocabulary   |   |   |
 |---|---|---|---|---|
 |Name   |Name of the publication   |dc:title   |   |   |
