@@ -5,11 +5,26 @@ This describes the ontology I developed for qualitative coding frames. This onto
 The ontology consists of several entities: the metadata for the codes, the metadata for the coding frames and also metadata to describe the research data that was analyzed, the publications that were created as well as the projects in which the coding frames were developed
 
 ## Coding frames
+
 |Name   |Description   |   |   |   |
 |---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+|Author   |Person, who created the code   |dc:creator   |   |   |
+|Method |Which method you used to create the codes, e.g. Grounded Theory with Strauss/Glaser or Strauss/Corbyn|   |   |   |
+|Discipline   |What is the background from which you created your codes   |   |   |   |
+|Theoretical background   |Which theories did you use, e.g. from psychology, sociology |   |   |   |
+|Date|When did you create the codes  |dc:date   |date   |   |
+|Research questions   |What were the research questions you wanted to answer? |   |text   |   |
+|Software|Which software was used|text
+|Project   |Link to project in which the coding frame was created   |   |URL   |   |
+|Data   |Link to data on which the coding frame was developed |   |URL   |   |
+|Project   |Link to project in which the coding frame was created   |   |URL   |   |
+|Publication   |Link to publication |   |URL   |   |
+|Coding frame as QDA-XML   |Possibility to upload complete coding frame via [https://www.qdasoftware.org/products-codebook-exchange/](QDA-XML)   |   |File   |   |
+|Coding frame as XML Project exchange file   |Possibility to upload complete coding frame via [QDPX](https://www.qdasoftware.org/products-project-exchange/)   |   |File   |   |
+|Description of coding |How did you code? According to Saldana (2015, p 68)
+|Description of dimensionalization| How did you do axial coding if you used Grounded Theory?
+|Maps | Possibiilty to upload maps if you used Situation analysis| |file
+|Further description | Add further description 
 
 ## Codes
 This describes the codes itself. I used as a basis the book 'The coding manual for qualitative researchers' by Saldana (see page xx) and the book 'qualitative content analysis in practice' by Schreier.
