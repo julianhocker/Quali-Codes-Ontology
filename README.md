@@ -27,6 +27,7 @@ These metadata help to identify the publication. In my prototype I do not want t
 
 ## Research data
 Codes are often developed based on data, also data is sometimes created with certain questions in mind. I put them apart because there is also the possibility to use codes on several datasets and to reuse data
+
 |Name   |Description   |Link to standard vocabulary   |   |   |
 |---|---|---|---|---|
 |DOI   |The unique identifier of the data|   |   |   |
