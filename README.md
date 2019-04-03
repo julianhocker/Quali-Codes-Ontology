@@ -14,6 +14,14 @@ The ontology consists of several entities: the metadata for the codes, the metad
 ## Codes
 
 ## Projects
+In interviews I got the feedback that it is important, how the coding frames were created. Therefore I added the possibility to add information about the project.
+
+|Name   |Description   |Link to standard vocabulary   |type of field   |   |
+|---|---|---|---|---|
+|Name   |Name of the project   |   |text   |   |
+|Persons   |People who are involved in the project   |   |text   |   |
+|Date   |When was the project active?   |  |text field   |   |
+|Link   |Link to webpage of the project where users can get more information |   |URL   |   |
 
 ## Publications
 These metadata help to identify the publication. In my prototype I do not want to implement a complete literature management, only basic information, so people can find the publication.
@@ -26,7 +34,7 @@ These metadata help to identify the publication. In my prototype I do not want t
 |DOI   |Unique identifier for document, preferable DOI   |dc:identifier   |   |   |
 
 ## Research data
-Codes are often developed based on data, also data is sometimes created with certain questions in mind. I put them apart because there is also the possibility to use codes on several datasets and to reuse data
+Codes are often developed based on data, also data is sometimes created with certain questions in mind. I put them apart because there is also the possibility to use codes on several datasets and to reuse data. In an optimal world, this research data would just be in your research data archive and therefore people can just with one click get the data as well as the codes ;)
 
 |Name   |Description   |Link to standard vocabulary   |   |   |
 |---|---|---|---|---|
