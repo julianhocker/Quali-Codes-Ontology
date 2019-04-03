@@ -12,6 +12,17 @@ The ontology consists of several entities: the metadata for the codes, the metad
 |   |   |   |   |   |
 
 ## Codes
+This describes the codes itself. I used as a basis the book 'The coding manual for qualitative researchers' by Saldana (see page xx) and the book 'qualitative content analysis in practice' by Schreier.
+
+|Name   |Description   |Link to standard vocabulary   |   |   |
+|---|---|---|---|---|
+|Name   |Name of the code   |   |   |   |
+|Including criterion   |What needs to be in the text to use this code   |   |   |   |
+|Excluding criterion   |When not to use it |   |   |   |
+|Anchor example   |Example when code is used |   |   |   |
+|Counter example   |Example when not to use this code |   |   |   |
+|Connection between codes   |How does this code relate to another code   |Could use connections provided by SKOS   |  |   |
+|Provenence|Where does code come from (e.g. other study or in-vivo)
 
 ## Projects
 In interviews I got the feedback that it is important, how the coding frames were created. Therefore I added the possibility to add information about the project.
