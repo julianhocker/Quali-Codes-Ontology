@@ -30,7 +30,7 @@ Codes are often developed based on data, also data is sometimes created with cer
 |---|---|---|---|---|
 |DOI   |The unique identifier of the data|   |   |   |
 |Creation of data| How data was created, e.g. interview, observation|DDI:ModeOfCollection
-|sampling|How did you select your test persons|
+|sampling|How did you select your test persons| |  | ||
 |Sampling size|How many interviews/observation did you do?
 |Instrument for creation|What people used to create the data, e.g. interview guidelines
 |Project|In what project was the data created?   |   |   |   |
