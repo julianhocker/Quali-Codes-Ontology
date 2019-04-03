@@ -6,9 +6,9 @@ The ontology consists of several entities: the metadata for the codes, the metad
 
 ## Coding frames
 
-|Name   |Description   |   |   |   |
+|Name   |Description   |  Link to standard vocabulary   |type of field  |   |
 |---|---|---|---|---|
-|Author   |Person, who created the code   |dc:creator   |   |   |
+|Author   |Person, who created the code   |   |   |   |
 |Method |Which method you used to create the codes, e.g. Grounded Theory with Strauss/Glaser or Strauss/Corbyn|   |   |   |
 |Discipline   |What is the background from which you created your codes   |   |   |   |
 |Theoretical background   |Which theories did you use, e.g. from psychology, sociology |   |   |   |
