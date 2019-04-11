@@ -10,10 +10,10 @@ The ontology consists of several entities: the metadata for the codes, the metad
 
 |Name   |Description   |  Link to standard vocabulary   |type of field  |   |
 |---|---|---|---|---|
-|Author   |Person, who created the code   |   |   |   |
-|Method |Which method you used to create the codes, e.g. Grounded Theory with Strauss/Glaser or Strauss/Corbyn|   |   |   |
-|Discipline   |What is the background from which you created your codes   |   |   |   |
-|Theoretical background   |Which theories did you use, e.g. from psychology, sociology |   |   |   |
+|Author   |Person, who created the code   |   |text   |   |
+|Method |Which method you used to create the codes, e.g. Grounded Theory with Strauss/Glaser or Strauss/Corbyn|   |text/dropdown   |   |
+|Discipline   |What is the background from which you created your codes   |   |text   |   |
+|Theoretical background   |Which theories did you use, e.g. from psychology, sociology |   |text  |   |
 |Date|When did you create the codes  |dc:date   |date   |   |
 |Research questions   |What were the research questions you wanted to answer? |   |text   |   |
 |Software|Which software was used|text
