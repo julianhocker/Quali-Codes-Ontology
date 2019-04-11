@@ -44,7 +44,7 @@ This describes the codes itself. I used as a basis the book 'The coding manual f
 ## Projects
 In interviews I got the feedback that it is important, how the coding frames were created. Therefore I added the possibility to add information about the project.
 
-|Name   |Description   |Link to standard vocabulary   |   |type of field   |
+|Name   |Description   |Link to standard vocabulary   | type of field   |
 |---|---|---|---|---|
 |Name   |Name of the project   |   |text   |   |
 |Persons   |People who are involved in the project   |   |text   |   |
@@ -56,9 +56,9 @@ These metadata help to identify the publication. In my prototype I do not want t
 
 |Name   |Description   |Link to standard vocabulary   |type of field   |   |
 |---|---|---|---|---|
-|Name   |Name of the publication   |dc:title   |   |text   |
-|Autor   |Name of the author   |dc:creator   |   |text   |
-|Date   |When was it published?   |dc:date   |   |date   |
+|Name   |Name of the publication   |dc:title     |text   |
+|Autor   |Name of the author   |dc:creator    |text   |
+|Date   |When was it published?   |dc:date   |date   |
 |DOI   |Unique identifier for document, preferable DOI   |dc:identifier   |DOI   |   |
 
 ## Research data
