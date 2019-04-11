@@ -44,7 +44,7 @@ This describes the codes itself. I used as a basis the book 'The coding manual f
 ## Projects
 In interviews I got the feedback that it is important, how the coding frames were created. Therefore I added the possibility to add information about the project.
 
-|Name   |Description   |Link to standard vocabulary   | type of field   |
+|Name   |Description   |Link to standard vocabulary   | type of field   | |
 |---|---|---|---|---|
 |Name   |Name of the project   |   |text   |   
 |Persons   |People who are involved in the project   |   |text   |   
