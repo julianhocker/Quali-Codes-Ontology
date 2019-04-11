@@ -3,6 +3,9 @@ This describes the ontology I developed for qualitative coding frames. This onto
 
 This is a beta-version of the complete ontology, I am doing some user testing until the beginning of 2020, but I am also happy to hear your opinion. Just open an issue ;)
 
+## Relations
+![alt text](https://github.com/julianhocker/Quali-Codes-Ontology/blob/master/relations.png "Relations between codes")
+
 ## Structure
 The ontology consists of several entities: the metadata for the codes, the metadata for the coding frames and also metadata to describe the research data that was analyzed, the publications that were created as well as the projects in which the coding frames were developed
 
