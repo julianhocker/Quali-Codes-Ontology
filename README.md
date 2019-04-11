@@ -46,10 +46,10 @@ In interviews I got the feedback that it is important, how the coding frames wer
 
 |Name   |Description   |Link to standard vocabulary   | type of field   |
 |---|---|---|---|---|
-|Name   |Name of the project   |   |text   |   |
-|Persons   |People who are involved in the project   |   |text   |   |
-|Date   |When was the project active?   |  |text field/time span   |   |
-|Link   |Link to webpage of the project where users can get more information |   |URL   |   |
+|Name   |Name of the project   |   |text   |   
+|Persons   |People who are involved in the project   |   |text   |   
+|Date   |When was the project active?   |  |text field/time span   |   
+|Link   |Link to webpage of the project where users can get more information |   |URL   |  
 
 ## Publications
 These metadata help to identify the publication. In my prototype I do not want to implement a complete literature management, only basic information, so people can find the publication.
