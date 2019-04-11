@@ -1,5 +1,7 @@
 # Qualitative Codes Ontology
-This describes the ontology I developed for qualitative coding frames. This ontology describes qualitative coding frames. It can be implemented easily. I kept the representation simple in an table, but might provide a version in RDF in the future. This is still work in progress, I also do some user testing on it. But if you encounter issues or have remarks I am happy to hear from you. Also if you want to implement it into your research data repository, I am happy to hear from you
+This describes the ontology I developed for qualitative coding frames. This ontology describes qualitative coding frames. It can be implemented easily. I kept the representation simple in an table, but might provide a version in RDF in the future. This is still work in progress, I also do some user testing on it. But if you encounter issues or have remarks I am happy to hear from you. Also if you want to implement it into your research data repository, I am happy to hear from you.
+
+This is a beta-version of the complete ontology, I am doing some user testing until the beginning of 2020, but I am also happy to hear your opinion. Just open an issue ;)
 
 ## Structure
 The ontology consists of several entities: the metadata for the codes, the metadata for the coding frames and also metadata to describe the research data that was analyzed, the publications that were created as well as the projects in which the coding frames were developed
@@ -36,7 +38,7 @@ This describes the codes itself. I used as a basis the book 'The coding manual f
 |Excluding criterion   |When not to use it |   |   |   |
 |Anchor example   |Example when code is used |   |   |   |
 |Counter example   |Example when not to use this code |   |   |   |
-|Connection between codes   |How does this code relate to another code   |Could use connections provided by SKOS   |  |   |
+|Connection between codes   |How does this code relate to another code?  |Could use connections provided by SKOS, not decided yet   |  |   |
 |Provenence|Where does code come from (e.g. other study or in-vivo)
 
 ## Projects
@@ -68,7 +70,7 @@ Codes are often developed based on data, also data is sometimes created with cer
 |Creation of data| How data was created, e.g. interview, observation|DDI:ModeOfCollection
 |sampling|How did you select your test persons| |  | ||
 |Sampling size|How many interviews/observation did you do?
-|Instrument for creation|What people used to create the data, e.g. interview guidelines
+|Instrument for creation|What you used to create the data, e.g. interview guidelines
 |Project|In what project was the data created?   |   |   |   |
 |Example data|Possibility to upload e.g. one interview that you are allowed to publish|   |   |   |
 |Research discipline|What is the background of the discipline you created the data?
