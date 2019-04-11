@@ -16,17 +16,17 @@ The ontology consists of several entities: the metadata for the codes, the metad
 |Theoretical background   |Which theories did you use, e.g. from psychology, sociology |   |text  |   |
 |Date|When did you create the codes  |dc:date   |date   |   |
 |Research questions   |What were the research questions you wanted to answer? |   |text   |   |
-|Software|Which software was used|text
+|Software|Which software was used, or did you code on paper?| |text
 |Project   |Link to project in which the coding frame was created   |   |URL   |   |
 |Data   |Link to data on which the coding frame was developed |   |URL   |   |
 |Project   |Link to project in which the coding frame was created   |   |URL   |   |
 |Publication   |Link to publication |   |URL   |   |
 |Coding frame as QDA-XML   |Possibility to upload complete coding frame via [https://www.qdasoftware.org/products-codebook-exchange/](QDA-XML)   |   |File   |   |
 |Coding frame as XML Project exchange file   |Possibility to upload complete coding frame via [QDPX](https://www.qdasoftware.org/products-project-exchange/)   |   |File   |   |
-|Description of coding |How did you code? According to Saldana (2015, p 68)
-|Description of dimensionalization| How did you do axial coding if you used Grounded Theory?
+|Description of coding |How did you code? According to Saldana (2015, p 68)| |text/dropdown
+|Description of dimensionalization| How did you do axial coding if you used Grounded Theory?| | text
 |Maps | Possibiilty to upload maps if you used Situation analysis| |file
-|Further description | Add further description 
+|Further description | Add further description | |text
 
 ## Codes
 This describes the codes itself. I used as a basis the book 'The coding manual for qualitative researchers' by Saldana (see page xx) and the book 'qualitative content analysis in practice' by Schreier.
