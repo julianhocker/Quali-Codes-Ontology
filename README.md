@@ -23,8 +23,8 @@ The ontology consists of several entities: the metadata for the codes, the metad
 |Project   |Link to project in which the coding frame was created   |   |URL   |   |
 |Data   |Link to data on which the coding frame was developed |   |URL   |   |
 |Publication   |Link to publication |   |URL   |   |
-|Coding frame as QDA-XML   |Possibility to upload complete coding frame via [https://www.qdasoftware.org/products-codebook-exchange/](QDPC)   |   |File   |   |
-|Coding frame as XML Project exchange file   |Possibility to upload complete coding frame via [QDPX](https://www.qdasoftware.org/products-project-exchange/)   |   |File   |   |
+|Coding frame as QDA-XML   |Possibility to upload complete coding frame via [https://www.qdasoftware.org/products-codebook-exchange/](REFI-QDA Project )   |   |File   |   |
+|Coding frame as XML Project exchange file   |Possibility to upload complete coding frame via [REFI-QDA Project ](https://www.qdasoftware.org/products-project-exchange/)   |   |File   |   |
 |Description of coding |How did you code? According to Saldana (2015, p 68)| |text/dropdown
 |Description of dimensionalization| How did you do axial coding if you used Grounded Theory?| | text
 |Maps | Possibiilty to upload maps if you used Situation analysis| |file
