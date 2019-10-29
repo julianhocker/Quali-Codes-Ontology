@@ -61,7 +61,10 @@ These metadata help to identify the publication. In my prototype I do not want t
 |Name   |Name of the publication   |dc:title     |text   |
 |Autor   |Name of the author   |dc:creator    |text   |
 |Date   |When was it published?   |dc:date   |date   |
-|DOI   |Unique identifier for document, preferable DOI   |dc:identifier   |DOI   |   |
+|DOI   |Unique identifier for document, preferable DOI or other like URN   |dc:identifier   |DOI   |   |
+|Keyword   |Keyword that describes the publication   |  |Controlled vocabulary   |   |
+|Abstract   |Abstract of the publication   |   |Text   |   |
+|Bibliographic string|Information about publication that you can copy to cite it (only needed if no Unique identifier is provided)| |Text||
 
 ## Research data
 Codes are often developed based on data, also data is sometimes created with certain questions in mind. I put them apart because there is also the possibility to use codes on several datasets and to reuse data. In an optimal world, this research data would just be in your research data archive and therefore people can just with one click get the data as well as the codes ;)
