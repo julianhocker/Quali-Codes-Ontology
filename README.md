@@ -43,15 +43,20 @@ This describes the codes itself. I used as a basis the book 'The coding manual f
 |Connection between codes   |How does this code relate to another code?  |Could use connections provided by SKOS, not decided yet   |link/SKOS  |   |
 |Provenence|Where does code come from (e.g. other study or in-vivo)| |text
 
-## Projects
+## Study
 In interviews I got the feedback that it is important, how the coding frames were created. Therefore I added the possibility to add information about the project.
 
 |Name   |Description   |Link to standard vocabulary   | type of field   | |
 |---|---|---|---|---|
-|Name   |Name of the project   |   |text   |   
-|Persons   |People who are involved in the project   |   |text   |   
+|Name   |Name of the study   |   |text   |   
+|Persons   |People who are involved in the project   |   |text   | 
+|contact person   |People who can be contacted if there are questions   |   |text   |   
 |Date   |When was the project active?   |  |text field/time span   |   
+|Description   |Description of the study, contains research method and implication; research questions and goals; also theoretical background and if there were primary or secondary data |   |text   |  
 |Link   |Link to webpage of the project where users can get more information |   |URL   |  
+|Research area   |In which area of research was it conducted? |   |text   |  
+|Kind of study   |internal project/dissertation/third-party-funded |   |text   |  
+|Keyword   |Keyword from a controlled vocabulary |   |text   |  
 
 ## Publications
 These metadata help to identify the publication. In my prototype I do not want to implement a complete literature management, only basic information, so people can find the publication.
@@ -73,10 +78,8 @@ Codes are often developed based on data, also data is sometimes created with cer
 |---|---|---|---|---|
 |DOI   |The unique identifier of the data|   |DOI   |   |
 |Creation of data| How data was created, e.g. interview, observation|DDI:ModeOfCollection|text
-|sampling|How did you select your test persons| |text  | ||
-|Sampling size|How many interviews/observation did you do?| | number
+|sampling|How did you select your test persons; what were the criteria? was sampling representative? demographic background of participants, how many people were involved?| |text  | ||
 |Instrument for creation|What you used to create the data, e.g. interview guidelines| |file
-|Project|In what project was the data created?   |   |link to project   |   |
-|Example data|Possibility to upload e.g. one interview that you are allowed to publish|   |file   |   |
 |Research discipline|What is the background of the discipline you created the data?| |text
-|Further description|Field to add further information| |text
+|Research question|What research questions lead the creation of the data| |text
+|Keyword   |Keyword from a controlled vocabulary |   |text   | 
