@@ -42,16 +42,16 @@ This describes the codes itself. I used as a basis the book 'The coding manual f
 |Provenence|Where does code come from (e.g. other study or in-vivo)| |text
 |Count|How often code was used in reserach project | | number
 ## Study
-In interviews I got the feedback that it is important, how the coding frames were created. Therefore I added the possibility to add information about the project.
+In interviews I got the feedback that it is important, how the coding frames were created. Therefore I added the possibility to add information about the project. First, this was named project and then renamed to study because [DDI](https://ddialliance.org) as well as research data centers like [Forschungsdatenzentum Bildung](https://www.fdz-bildung.de/) focus on studies rather than projects.
 
-|Name   |Description   |Link to standard vocabulary   | type of field   | |
+|Name   |Description   |Link to standard vocabulary   | type of field   |Justification/background|
 |---|---|---|---|---|
 |Name   |Name of the study   |   |text   |   
-|Persons   |People who are involved in the project   |   |text   | 
-|contact person   |People who can be contacted if there are questions   |   |text   |   
-|Date   |When was the project active?   |  |text field/time span   |   
+|Persons   |People who are involved in the project   |   |text|People mentioned that it makes sense to see who was involved to get a glimpse of how the ideas were 
+|contact person   |People who can be contacted if there are questions   |   |text   |People mentioned in design phase II that it makes sense to have a person that they can contact and this is more important than the head of the project, which might be not involved that much  
+|Date   |When was the project active?   |  |text field/time span|important to see when the study was done 
 |Description   |Description of the study, contains research method and implication; research questions and goals; also theoretical background and if there were primary or secondary data |   |text   |  
-|Link   |Link to webpage of the project where users can get more information |   |URL   |  
+|Link   |Link to webpage of the project where users can get more information |   |URL|It was mentioned that people want to get in contact and find out more about the study, therefore the link to the study   
 |Research area   |In which area of research was it conducted? |   |text   |  
 |Kind of study   |internal project/dissertation/third-party-funded |   |text   |  
 |Keyword   |Keyword from a controlled vocabulary |   |text   |  
