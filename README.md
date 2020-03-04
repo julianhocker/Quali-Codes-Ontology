@@ -14,21 +14,21 @@ The ontology consists of several entities: the metadata for the codes, the metad
 |Name   |Description   |  Link to standard vocabulary   |type of field  |   |
 |---|---|---|---|---|
 |Author   |Person, who created the code   |   |text   |   |
-|Method |Which method you used to create the codes, e.g. Grounded Theory with Strauss/Glaser or Strauss/Corbyn|   |text/dropdown   |   |
-|Discipline   |What is the background of the researcher   |   |text   |   |
-|Theoretical background   |Which theories did you use, e.g. from psychology, sociology |   |text  |   |
-|Date|When did you create the codes  |dc:date   |date   |   |
+|Method |Which method you used to create the codes, e.g. Grounded Theory with Strauss/Glaser or Strauss/Corbyn. Also describe how strictly you used these methods|   |text/dropdown   |   |
+|Research area   |Where do you see this research?   |   |text   |   |
+|Theoretical background   |Which theories did you use, e.g. from psychology, sociology and which codes did you derive from these? |   |text  |   |
+|Date|When did you create the codes (start and end date)  |dc:date   |date   |   |
 |Research questions   |What were the research questions you wanted to answer? |   |text   |   |
+
+
+|Process of creation|Describe how you created the codes. Did you code alone or with a team? How did you create the codes? How and which codes did you change in the process and why?
+|Description of coding |How did you code? Describe the process how you coded the data. You can also use the categorization according to Saldana (2015, coding manual for qualitative researchers,  p 68)| |text (no dropdown because not everyone uses the methodology of Saldana
+|Description of dimensionalization| How did you do your dimensionalization if you used Grounded Theory?| | text
 |Software|Which software was used, or did you code on paper?| |text
-|Project   |Link to project in which the coding frame was created   |   |URL   |   |
-|Data   |Link to data on which the coding frame was developed |   |URL   |   |
-|Publication   |Link to publication |   |URL   |   |
 |Coding frame as QDA-XML   |Possibility to upload complete coding frame via [REFI-QDA Codebook](https://www.qdasoftware.org/products-codebook-exchange/)   |   |File   |   |
 |Coding frame as XML Project exchange file   |Possibility to upload complete coding frame via [REFI-QDA Project ](https://www.qdasoftware.org/products-project-exchange/)   |   |File   |   |
-|Description of coding |How did you code? According to Saldana (2015, p 68)| |text/dropdown
-|Description of dimensionalization| How did you do axial coding if you used Grounded Theory?| | text
-|Maps | Possibiilty to upload maps if you used Situation analysis| |file
-|Further description | Add further description | |text
+|Visualizations | Possibiilty to upload visualizations, e.g. maps if you used Situation analysis| |file
+|Keywords|Keywords for the research|for German: Thesaurus Bildungsforschung | text
 
 ## Codes
 This describes the codes itself. I used as a basis the book 'The coding manual for qualitative researchers' by Saldana (see page xx) and the book 'qualitative content analysis in practice' by Schreier.
