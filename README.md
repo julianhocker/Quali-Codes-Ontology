@@ -61,13 +61,13 @@ These metadata help to identify the publication. In my prototype I do not want t
 
 |Name   |Description   |Link to standard vocabulary   |type of field   |   |
 |---|---|---|---|---|
-|Name   |Name of the publication   |dc:title     |text   |
-|Autor   |Name of the author   |dc:creator    |text   |
-|Date   |When was it published?   |dc:date   |date   |
-|DOI   |Unique identifier for document, preferable DOI or other like URN   |dc:identifier   |DOI   |   |
+|Title   |Title of the publication   |dc:title     |text   |standards for literature description|
+|Autor   |Name of the author   |dc:creator    |text   |standards for literature description|
+|Date   |When was it published?   |dc:date   |date   |standards for literature description|
+|DOI   |Unique identifier for document, preferable DOI or other like URN   |dc:identifier   |DOI   |standards for literature description|
 |Keyword   |Keyword that describes the publication   |  |Controlled vocabulary   |   |
-|Abstract   |Abstract of the publication   |   |Text   |   |
-|Bibliographic string|Information about publication that you can copy to cite it (only needed if no Unique identifier is provided)| |Text||
+|Abstract   |Abstract of the publication   |   |Text   |Mentioned in interviews, people thought it makes sense, so they do not have to click on DOI to see abstract|
+|Bibliographic string|Information about publication that you can copy to cite it (only needed if no Unique identifier is provided)| |Text|mentioned in interviews, makes literature easier to find when there is no DOI|
 
 ## Research data
 Codes are often developed based on data, also data is sometimes created with certain questions in mind. I put them apart because there is also the possibility to use codes on several datasets and to reuse data. In an optimal world, this research data would just be in your research data archive and therefore people can just with one click get the data as well as the codes ;)
