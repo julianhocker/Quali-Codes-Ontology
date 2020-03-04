@@ -11,7 +11,7 @@ The ontology consists of several entities: the metadata for the codes, the metad
 
 ## Coding frames
 
-|Name   |Description   |  Link to standard vocabulary   |type of field  |   |
+|Name   |Description   |  Link to standard vocabulary   |type of field  |justification/background|
 |---|---|---|---|---|
 |Author   |Person, who created the code   |   |text   |   |
 |Method |Which method you used to create the codes, e.g. Grounded Theory with Strauss/Glaser or Strauss/Corbyn. Also describe how strictly you used these methods|   |text/dropdown   |   |
@@ -34,7 +34,7 @@ This describes the codes itself. I used as a basis the book 'The coding manual f
 |Name   |Description   |Link to standard vocabulary   |type of field   |   |
 |---|---|---|---|---|
 |Name   |Name of the code   |   |text   |   |
-|Including criterion   |What needs to be in the text to use this code   |   |text   |   |
+|Including criterion   |What needs to be in the text to use this code   |   |text   |Saldana (2015)|
 |Excluding criterion   |When not to use it |   |text   |   |
 |Anchor example   |Example when code is used |   |text   |   |
 |Counter example   |Example when not to use this code |   |text   |   |
