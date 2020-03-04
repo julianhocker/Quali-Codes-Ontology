@@ -42,7 +42,7 @@ This describes the codes itself. I used as a basis the book 'The coding manual f
 |Counter example   |Example when not to use this code |   |text   |   |
 |Connection between codes   |How does this code relate to another code?  |Could use connections provided by SKOS, not decided yet   |link/SKOS  |   |
 |Provenence|Where does code come from (e.g. other study or in-vivo)| |text
-
+|Count|How often code was used in reserach project | | number
 ## Study
 In interviews I got the feedback that it is important, how the coding frames were created. Therefore I added the possibility to add information about the project.
 
