@@ -21,6 +21,7 @@ The ontology consists of several entities: the metadata for the codes, the metad
 |Process of creation|Describe how you created the codes. Did you code alone or with a team? How did you create the codes? How and which codes did you change in the process and why?
 |Description of coding |How did you code? Describe the process how you coded the data. You can also use the categorization according to Saldana (2015, coding manual for qualitative researchers,  p 68)| |text (no dropdown because not everyone uses the methodology of Saldana
 |Description of dimensionalization| How did you do your dimensionalization if you used Grounded Theory?| | text
+|Inter-coder reliability|How high was the inter-coder-reliability? How did you measure it| | text
 |Software|Which software was used, or did you code on paper?| |text
 |Date|When did you create the codes (start and end date)  |dc:date   |date   |   |
 |Coding frame as QDA-XML   |Possibility to upload complete coding frame via [REFI-QDA Codebook](https://www.qdasoftware.org/products-codebook-exchange/)   |   |File   |   |
