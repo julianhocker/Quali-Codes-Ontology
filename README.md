@@ -26,7 +26,7 @@ The ontology consists of several entities: the metadata for the codes, the metad
 |Research area   |Where do you see this research?   |   |text   |   |yes
 |Theoretical background   |Which theories did you use, e.g. from psychology, sociology and which codes did you derive from these? |   |text  |   |yes
 |Research questions   |What were the research questions you wanted to answer? |   |text   |   |yes
-|Process of creation|Describe how you created the codes. Did you code alone or with a team? How did you create the codes? How and which codes did you change in the process and why? | text | | yes
+|Process of creation|Describe how you created the codes. Did you code alone or with a team? How did you create the codes? How and which codes did you change in the process and why? | | text | | yes
 |Coding cycles | Describe how you coded, based on Saldana (2015, coding manual for qualitative researchers,  p 68) | | text/dropdown | | no
 |Description of coding cycles |How did you code? Describe the process how you coded the data. | |text | not everyone is familiar with Saldana, so people can give more information about the coding cycles here. Also describe how you did dimensionalization if you used Grounded Theory | yes
 |Inter-coder reliability|How high was the inter-coder-reliability? How did you measure it| | text | |no
@@ -48,8 +48,8 @@ This describes the codes itself. I used as a basis the book 'The coding manual f
 |Anchor example   |Example when code is used |   |text   |   |yes
 |Counter example   |Example when not to use this code |   |text   |   |no
 |Provenence|Where does code come from? | |text/dropdown (inductive, deductive, in-vivo, socially constructed)| | yes
-|Count|How often code was used in reserach project | | number
-|Number of connections to other codes | to how many other codes is the code connected in your coding schema in Grounded Theory? | | number |no
+|Count|How often code was used in reserach project | | number| |no
+|Number of connections to other codes | to how many other codes is the code connected in your coding schema in Grounded Theory? | | number ||no
 ## Study
 In interviews I got the feedback that it is important, how the coding frames were created. Therefore I added the possibility to add information about the project. First, this was named project and then renamed to study because [DDI](https://ddialliance.org) as well as research data centers like [Forschungsdatenzentum Bildung](https://www.fdz-bildung.de/) focus on studies rather than projects.
 
