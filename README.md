@@ -58,7 +58,7 @@ In interviews I got the feedback that it is important, how the coding frames wer
 |Name   |Name of the study   |   |text   |   | yes
 |Persons   |People who are involved in the project   |   |text|People mentioned that it makes sense to see who was involved to get a glimpse of how the ideas were |no
 |contact person   |People who can be contacted if there are questions   |   |text   |People mentioned in design phase II that it makes sense to have a person that they can contact and this is more important than the head of the project, which might be not involved that much  |yes
-|Institutions | Institutions who did the study | | text | yes
+|Institutions | Institutions who did the study | | text | |yes
 |Date   |When was the project active?   |  |text field/time span|important to see when the study was done |yes
 |Description   |Description of the study, contains research method and implication; research questions and goals; also theoretical background and if there were primary or secondary data |   |text   |  |yes
 |Link   |Link to webpage of the project where users can get more information |   |URL|It was mentioned that people want to get in contact and find out more about the study, therefore the link to the study |yes  
