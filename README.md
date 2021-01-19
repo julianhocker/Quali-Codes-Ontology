@@ -1,7 +1,14 @@
-# Qualitative Codes Ontology
-This describes the ontology I developed for qualitative coding frames. This ontology describes qualitative coding frames. It can be implemented easily. I kept the representation simple in an table, but might provide a version in RDF in the future. This is still work in progress, I also do some user testing on it. But if you encounter issues or have remarks I am happy to hear from you. Also if you want to implement it into your research data repository, I am happy to hear from you.
+# Qualitative Codes Ontology (QualiCO)
+This describes the ontology I developed for qualitative coding schemas. This ontology describes qualitative coding schemas. It can be implemented easily. I kept the representation simple in an table, but might provide a version in RDF in the future. This is still work in progress, I also do some user testing on it. But if you encounter issues or have remarks I am happy to hear from you. Also if you want to implement it into your research data repository, I am happy to hear from you.
 
-This is a beta-version of the complete ontology, I am doing some user testing until the beginning of 2020, but I am also happy to hear your opinion. Just open an issue ;)
+There are two publications on this research out: 
+* Julian Hocker, Taryn Bipat, Mark Zachry, and David W. McDonald. 2020. Sharing your coding schemas: Developing a Platform to fit within the Qualitative Research Workflow. In Proceedings of the 16th International Symposium on Open Collaboration (OpenSym 2020). Association for Computing Machinery, New York, NY, USA, Article 2, 1–10. DOI:https://doi.org/10.1145/3412569.3412574
+*  Hocker, J., Schindler, C. and Rittberger, M. (2020), "Participatory design for ontologies: a case study of an open science ontology for qualitative coding schemas", Aslib Journal of Information Management, Vol. 72 No. 4, pp. 671-685. https://doi.org/10.1108/AJIM-11-2019-0320 
+  
+I used to following standards to comply with other work in the field:
+* Bibliographic information: [BiBo](https://github.com/structureddynamics/Bibliographic-Ontology-BIBO)
+* research data description: [DDI](https://ddialliance.org/) and the [metadata schema by Verbund FDB](https://www.forschungsdaten-bildung.de/files/fdbinfo_8_Metadatenset_v1.0.pdf) (German association for research data in education)
+
 
 ## Relations
 ![Relations between codes](https://github.com/julianhocker/Quali-Codes-Ontology/blob/master/relations.png "Relations between codes")
@@ -9,7 +16,7 @@ This is a beta-version of the complete ontology, I am doing some user testing un
 ## Structure
 The ontology consists of several entities: the metadata for the codes, the metadata for the coding frames and also metadata to describe the research data that was analyzed, the publications that were created as well as the projects in which the coding frames were developed
 
-## Coding frames
+## Coding Schema
 
 |Name   |Description   |  Link to standard vocabulary   |type of field  |justification/background|
 |---|---|---|---|---|
@@ -24,24 +31,24 @@ The ontology consists of several entities: the metadata for the codes, the metad
 |Inter-coder reliability|How high was the inter-coder-reliability? How did you measure it| | text
 |Software|Which software was used, or did you code on paper?| |text
 |Date|When did you create the codes (start and end date)  |dc:date   |date   |   |
-|Coding frame as QDA-XML   |Possibility to upload complete coding frame via [REFI-QDA Codebook](https://www.qdasoftware.org/products-codebook-exchange/)   |   |File   |   |
-|Coding frame as XML Project exchange file   |Possibility to upload complete coding frame via [REFI-QDA Project ](https://www.qdasoftware.org/products-project-exchange/)   |   |File   |   |
+|Coding schema as QDA-XML   |Possibility to upload complete coding frame via [REFI-QDA Codebook](https://www.qdasoftware.org/products-codebook-exchange/)   |   |File   |   |
+|Project as XML Project exchange file   |Possibility to upload complete coding frame via [REFI-QDA Project ](https://www.qdasoftware.org/products-project-exchange/)   |   |File   |   |
 |Visualizations | Possibiilty to upload visualizations, e.g. maps if you used Situation analysis| |file
 |Keywords|Keywords for the research|for German: Thesaurus Bildungsforschung | text
 
 ## Codes
 This describes the codes itself. I used as a basis the book 'The coding manual for qualitative researchers' by Saldana (see page xx) and the book 'qualitative content analysis in practice' by Schreier.
 
-|Name   |Description   |Link to standard vocabulary   |type of field   |   |
-|---|---|---|---|---|
-|Name   |Name of the code   |   |text   |   |
-|Including criterion   |What needs to be in the text to use this code   |   |text   |Saldana (2015)|
-|Excluding criterion   |When not to use it |   |text   |   |
-|Anchor example   |Example when code is used |   |text   |   |
-|Counter example   |Example when not to use this code |   |text   |   |
-|Connection between codes   |How does this code relate to another code?  |Could use connections provided by SKOS, not decided yet   |link/SKOS  |   |
-|Provenence|Where does code come from (e.g. other study or in-vivo)| |text
+|Name   |Description   |Link to standard vocabulary   |type of field   |   | Required
+|---|---|---|---|---|---|
+|Name   |Name of the code   |   |text   |   |yes
+|Including criterion   |What needs to be in the text to use this code   |   |text   |Saldana (2015)|no
+|Excluding criterion   |When not to use it |   |text   |   |no
+|Anchor example   |Example when code is used |   |text   |   |yes
+|Counter example   |Example when not to use this code |   |text   |   |no
+|Provenence|Where does code come from? | |text/dropdown (inductive, deductive, in-vivo, socially constructed)| | yes
 |Count|How often code was used in reserach project | | number
+|Number of connections to other codes | to how many other codes is the code connected in your coding schema in Grounded Theory? | | number |no
 ## Study
 In interviews I got the feedback that it is important, how the coding frames were created. Therefore I added the possibility to add information about the project. First, this was named project and then renamed to study because [DDI](https://ddialliance.org) as well as research data centers like [Forschungsdatenzentum Bildung](https://www.fdz-bildung.de/) focus on studies rather than projects.
 
@@ -50,17 +57,19 @@ In interviews I got the feedback that it is important, how the coding frames wer
 |Name   |Name of the study   |   |text   |   
 |Persons   |People who are involved in the project   |   |text|People mentioned that it makes sense to see who was involved to get a glimpse of how the ideas were 
 |contact person   |People who can be contacted if there are questions   |   |text   |People mentioned in design phase II that it makes sense to have a person that they can contact and this is more important than the head of the project, which might be not involved that much  
+|Institutions | Institutions who did the study | | text | 
 |Date   |When was the project active?   |  |text field/time span|important to see when the study was done 
 |Description   |Description of the study, contains research method and implication; research questions and goals; also theoretical background and if there were primary or secondary data |   |text   |  
 |Link   |Link to webpage of the project where users can get more information |   |URL|It was mentioned that people want to get in contact and find out more about the study, therefore the link to the study   
-|Research area   |In which area of research was it conducted? |   |text   |  
-|Kind of study   |internal project/dissertation/third-party-funded |   |text   |  
+|Kind of study   |internal project/dissertation/third-party-funded |   |text/dropdown   |  
+|Comment to kind of study | possibility to give further information | text |
+|sub-studies | link to sub-studies that were part of this study | | link| Participants expressed need to link studies if they were part of larger studies
 |Keyword   |Keyword from a controlled vocabulary |   |text   |  
 
 ## Publications
 These metadata help to identify the publication. In my prototype I do not want to implement a complete literature management, only basic information, so people can find the publication.
 
-|Name   |Description   |Link to standard vocabulary   |type of field   |   |
+|Name   |Description   |Link to standard vocabulary   |type of field   |Justification/background|
 |---|---|---|---|---|
 |Title   |Title of the publication   |dc:title     |text   |standards for literature description|
 |Autor   |Name of the author   |dc:creator    |text   |standards for literature description|
@@ -73,12 +82,14 @@ These metadata help to identify the publication. In my prototype I do not want t
 ## Research data
 Codes are often developed based on data, also data is sometimes created with certain questions in mind. I put them apart because there is also the possibility to use codes on several datasets and to reuse data. In an optimal world, this research data would just be in your research data archive and therefore people can just with one click get the data as well as the codes ;)
 
-|Name   |Description   |Link to standard vocabulary   |type of field   |   |
+|Name   |Description   |Link to standard vocabulary   |type of field   |Justification/background|
 |---|---|---|---|---|
 |DOI   |The unique identifier of the data|   |DOI   |   |
-|Creation of data| How data was created, e.g. interview, observation|DDI:ModeOfCollection|text
-|sampling|How did you select your test persons; what were the criteria? was sampling representative? demographic background of participants, how many people were involved?| |text  | ||
+|Creation of data| How data was created, e.g. interview, observation|DDI:ModeOfCollection|text/dropdown
+|Creation of data/comment | specify how you did your interviews | 
+|sampling|How did you select your test persons; what were the criteria? was sampling representative? | |text  | |
+|unit of analysis | describe demographic of participants and other information like status or job | | text|
 |Instrument for creation|What you used to create the data, e.g. interview guidelines| |file
 |Research discipline|What is the background of the discipline you created the data?| |text
-|Research question|What research questions lead the creation of the data| |text
 |Keyword   |Keyword from a controlled vocabulary |   |text   | 
+|Postscripts | Postscripts are all kind of notes you took, after interviews or observations | | text/possibility to upload files |provide additional information to the research data
