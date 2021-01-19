@@ -83,14 +83,14 @@ These metadata help to identify the publication. In my prototype I do not want t
 ## Research data
 Codes are often developed based on data, also data is sometimes created with certain questions in mind. I put them apart because there is also the possibility to use codes on several datasets and to reuse data. In an optimal world, this research data would just be in your research data archive and therefore people can just with one click get the data as well as the codes ;)
 
-|Name   |Description   |Link to standard vocabulary   |type of field   |Justification/background|
-|---|---|---|---|---|
-|DOI   |The unique identifier of the data|   |DOI   |   |
-|Creation of data| How data was created, e.g. interview, observation|DDI:ModeOfCollection|text/dropdown
+|Name   |Description   |Link to standard vocabulary   |type of field   |Justification/background|Required|
+|---|---|---|---|---|---|
+|DOI   |The unique identifier of the data|   |DOI   |   |yes
+|Creation of data| How data was created, e.g. interview, observation|DDI:ModeOfCollection|text/dropdown| |yes
 |Creation of data/comment | specify how you did your interviews | 
 |sampling|How did you select your test persons; what were the criteria? was sampling representative? | |text  | |
 |unit of analysis | describe demographic of participants and other information like status or job | | text|
-|Instrument for creation|What you used to create the data, e.g. interview guidelines| |file
-|Research discipline|What is the background of the discipline you created the data?| |text
-|Keyword   |Keyword from a controlled vocabulary |   |text   | 
-|Postscripts | Postscripts are all kind of notes you took, after interviews or observations | | text/possibility to upload files |provide additional information to the research data
+|Instrument for creation|What you used to create the data, e.g. interview guidelines| |file | | yes
+|Research discipline|What is the background of the discipline you created the data?| |text | | no
+|Keyword   |Keyword from a controlled vocabulary |   |text   | |yes
+|Postscripts | Postscripts are all kind of notes you took, after interviews or observations | | text/possibility to upload files |provide additional information to the research data| | no
