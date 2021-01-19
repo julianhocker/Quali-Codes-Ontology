@@ -18,23 +18,24 @@ The ontology consists of several entities: the metadata for the codes, the metad
 
 ## Coding Schema
 
-|Name   |Description   |  Link to standard vocabulary   |type of field  |justification/background|
-|---|---|---|---|---|
-|Author   |Person, who created the code   |   |text   |   |
-|Method |Which method you used to create the codes, e.g. Grounded Theory with Strauss/Glaser or Strauss/Corbyn. Also describe how strictly you used these methods|   |text/dropdown   |   |
-|Research area   |Where do you see this research?   |   |text   |   |
-|Theoretical background   |Which theories did you use, e.g. from psychology, sociology and which codes did you derive from these? |   |text  |   |
+|Name   |Description   |  Link to standard vocabulary   |type of field  |justification/background| required|
+|---|---|---|---|---|---|
+|Author   |Person, who created the code   |   |text   |   |yes
+|Method |Which method you used to create the codes, e.g. Grounded Theory with Strauss/Glaser or Strauss/Corbyn. |   |text/dropdown   |   |yes
+|Method comment |specify further how you used the method. Also describe how strictly you used these methods| | text |qualitative methods are quite diverse and people use them quite openly|no
+|Research area   |Where do you see this research?   |   |text   |   |yes
+|Theoretical background   |Which theories did you use, e.g. from psychology, sociology and which codes did you derive from these? |   |text  |   |yes
 |Research questions   |What were the research questions you wanted to answer? |   |text   |   |
 |Process of creation|Describe how you created the codes. Did you code alone or with a team? How did you create the codes? How and which codes did you change in the process and why?
-|Description of coding |How did you code? Describe the process how you coded the data. You can also use the categorization according to Saldana (2015, coding manual for qualitative researchers,  p 68)| |text (no dropdown because not everyone uses the methodology of Saldana
-|Description of dimensionalization| How did you do your dimensionalization if you used Grounded Theory?| | text
-|Inter-coder reliability|How high was the inter-coder-reliability? How did you measure it| | text
-|Software|Which software was used, or did you code on paper?| |text
-|Date|When did you create the codes (start and end date)  |dc:date   |date   |   |
-|Coding schema as QDA-XML   |Possibility to upload complete coding frame via [REFI-QDA Codebook](https://www.qdasoftware.org/products-codebook-exchange/)   |   |File   |   |
-|Project as XML Project exchange file   |Possibility to upload complete coding frame via [REFI-QDA Project ](https://www.qdasoftware.org/products-project-exchange/)   |   |File   |   |
-|Visualizations | Possibiilty to upload visualizations, e.g. maps if you used Situation analysis| |file
-|Keywords|Keywords for the research|for German: Thesaurus Bildungsforschung | text
+|Coding cycles | Describe how you coded, based on Saldana (2015, coding manual for qualitative researchers,  p 68) | | text/dropdown | | no
+|Description of coding cycles |How did you code? Describe the process how you coded the data. | |text | not everyone is familiar with Saldana, so people can give more information about the coding cycles here. Also describe how you did dimensionalization if you used Grounded Theory | yes
+|Inter-coder reliability|How high was the inter-coder-reliability? How did you measure it| | text | |no
+|Software|Which software was used, or did you code on paper?| |text | | yes
+|Date|When did you create the codes (start and end date)  |dc:date   |date   |   |yes
+|Coding schema as QDA-XML   |Possibility to upload complete coding frame via [REFI-QDA Codebook](https://www.qdasoftware.org/products-codebook-exchange/) or other way to exchange all codes  |   |File   |   | yes
+|Project as XML Project exchange file   |Possibility to upload complete coding frame via [REFI-QDA Project ](https://www.qdasoftware.org/products-project-exchange/)   |   |File   |   |no
+|Visualizations | Possibiilty to upload visualizations, e.g. maps if you used Situation analysis| |file |Visualizations are important ways to get an overview on the codes and can help others understand your codes | no
+|Keywords|Keywords for the research|for German: Thesaurus Bildungsforschung | text | |yes
 
 ## Codes
 This describes the codes itself. I used as a basis the book 'The coding manual for qualitative researchers' by Saldana (see page xx) and the book 'qualitative content analysis in practice' by Schreier.
