@@ -70,15 +70,15 @@ In interviews I got the feedback that it is important, how the coding frames wer
 ## Publications
 These metadata help to identify the publication. In my prototype I do not want to implement a complete literature management, only basic information, so people can find the publication.
 
-|Name   |Description   |Link to standard vocabulary   |type of field   |Justification/background|
-|---|---|---|---|---|
-|Title   |Title of the publication   |dc:title     |text   |standards for literature description|
-|Autor   |Name of the author   |dc:creator    |text   |standards for literature description|
-|Date   |When was it published?   |dc:date   |date   |standards for literature description|
-|DOI   |Unique identifier for document, preferable DOI or other like URN   |dc:identifier   |DOI   |standards for literature description|
-|Keyword   |Keyword that describes the publication   |  |Controlled vocabulary   |   |
-|Abstract   |Abstract of the publication   |   |Text   |Mentioned in interviews, people thought it makes sense, so they do not have to click on DOI to see abstract|
-|Bibliographic string|Information about publication that you can copy to cite it (only needed if no Unique identifier is provided)| |Text|mentioned in interviews, makes literature easier to find when there is no DOI|
+|Name   |Description   |Link to standard vocabulary   |type of field   |Justification/background|Required|
+|---|---|---|---|---|---|
+|Title   |Title of the publication   |dc:title     |text   |standards for literature description||yes
+|Autor   |Name of the author   |dc:creator    |text   |standards for literature description|yes
+|Date   |When was it published?   |dc:date   |date   |standards for literature description|yes
+|DOI   |Unique identifier for document, preferable DOI or other like URN   |dc:identifier   |DOI   |standards for literature description|yes
+|Keyword   |Keyword that describes the publication   |  |Controlled vocabulary   |   |yes
+|Abstract   |Abstract of the publication   |   |Text   |Mentioned in interviews, people thought it makes sense, so they do not have to click on DOI to see abstract|yes
+|Bibliographic string|Information about publication that you can copy to cite it (only needed if no Unique identifier is provided)| |Text|mentioned in interviews, makes literature easier to find when there is no DOI|yes
 
 ## Research data
 Codes are often developed based on data, also data is sometimes created with certain questions in mind. I put them apart because there is also the possibility to use codes on several datasets and to reuse data. In an optimal world, this research data would just be in your research data archive and therefore people can just with one click get the data as well as the codes ;)
@@ -87,10 +87,10 @@ Codes are often developed based on data, also data is sometimes created with cer
 |---|---|---|---|---|---|
 |DOI   |The unique identifier of the data|   |DOI   |   |yes
 |Creation of data| How data was created, e.g. interview, observation|DDI:ModeOfCollection|text/dropdown| |yes
-|Creation of data/comment | specify how you did your interviews | 
-|sampling|How did you select your test persons; what were the criteria? was sampling representative? | |text  | |
-|unit of analysis | describe demographic of participants and other information like status or job | | text|
+|Creation of data/comment | specify how you did your interviews | |text | | no 
+|sampling|How did you select your test persons; what were the criteria? was sampling representative? | |text  | |yes
+|unit of analysis | describe demographic of participants and other information like status or job | | text||no
 |Instrument for creation|What you used to create the data, e.g. interview guidelines| |file | | yes
 |Research discipline|What is the background of the discipline you created the data?| |text | | no
 |Keyword   |Keyword from a controlled vocabulary |   |text   | |yes
-|Postscripts | Postscripts are all kind of notes you took, after interviews or observations | | text/possibility to upload files |provide additional information to the research data| | no
+|Postscripts | Postscripts are all kind of notes you took, after interviews or observations | | text/possibility to upload files |provide additional information to the research data| no
