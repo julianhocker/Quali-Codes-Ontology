@@ -25,8 +25,8 @@ The ontology consists of several entities: the metadata for the codes, the metad
 |Method comment |specify further how you used the method. Also describe how strictly you used these methods| | text |qualitative methods are quite diverse and people use them quite openly|no
 |Research area   |Where do you see this research?   |   |text   |   |yes
 |Theoretical background   |Which theories did you use, e.g. from psychology, sociology and which codes did you derive from these? |   |text  |   |yes
-|Research questions   |What were the research questions you wanted to answer? |   |text   |   |
-|Process of creation|Describe how you created the codes. Did you code alone or with a team? How did you create the codes? How and which codes did you change in the process and why?
+|Research questions   |What were the research questions you wanted to answer? |   |text   |   |yes
+|Process of creation|Describe how you created the codes. Did you code alone or with a team? How did you create the codes? How and which codes did you change in the process and why? | text | | yes
 |Coding cycles | Describe how you coded, based on Saldana (2015, coding manual for qualitative researchers,  p 68) | | text/dropdown | | no
 |Description of coding cycles |How did you code? Describe the process how you coded the data. | |text | not everyone is familiar with Saldana, so people can give more information about the coding cycles here. Also describe how you did dimensionalization if you used Grounded Theory | yes
 |Inter-coder reliability|How high was the inter-coder-reliability? How did you measure it| | text | |no
