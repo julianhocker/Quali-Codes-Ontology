@@ -10,8 +10,8 @@ I used to following standards to comply with other work in the field:
 * research data description: [DDI](https://ddialliance.org/) and the [metadata schema by Verbund FDB](https://www.forschungsdaten-bildung.de/files/fdbinfo_8_Metadatenset_v1.0.pdf) (German association for research data in education)
 
 
-## Relations
-![Relations between codes](https://github.com/julianhocker/Quali-Codes-Ontology/blob/master/relations.png "Relations between codes")
+## Structure of the ontology
+![Structure of the ontology](https://github.com/julianhocker/Quali-Codes-Ontology/blob/master/structure.jpg "Structure of the ontology")
 
 ## Structure
 The ontology consists of several entities: the metadata for the codes, the metadata for the coding frames and also metadata to describe the research data that was analyzed, the publications that were created as well as the projects in which the coding frames were developed
