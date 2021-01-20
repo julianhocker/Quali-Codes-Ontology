@@ -11,7 +11,7 @@ I used to following standards to comply with other work in the field:
 
 
 ## Structure of the ontology
-![Structure of the ontology](https://github.com/julianhocker/Quali-Codes-Ontology/blob/master/structure.jpg "Structure of the ontology")
+![Structure of the ontology](https://github.com/julianhocker/Quali-Codes-Ontology/blob/master/stucture.jpg "Structure of the ontology")
 
 ## Structure
 The ontology consists of several entities: the metadata for the codes, the metadata for the coding frames and also metadata to describe the research data that was analyzed, the publications that were created as well as the projects in which the coding frames were developed
