@@ -4,9 +4,10 @@ This describes the ontology I developed for qualitative coding schemas. This ont
 There are two publications on this research out: 
 * Julian Hocker, Taryn Bipat, Mark Zachry, and David W. McDonald. 2020. Sharing your coding schemas: Developing a Platform to fit within the Qualitative Research Workflow. In Proceedings of the 16th International Symposium on Open Collaboration (OpenSym 2020). Association for Computing Machinery, New York, NY, USA, Article 2, 1–10. DOI:https://doi.org/10.1145/3412569.3412574
 *  Hocker, J., Schindler, C. and Rittberger, M. (2020), "Participatory design for ontologies: a case study of an open science ontology for qualitative coding schemas", Aslib Journal of Information Management, Vol. 72 No. 4, pp. 671-685. https://doi.org/10.1108/AJIM-11-2019-0320 
+* Julian Hocker, Taryn Bipat, David W. McDonald et al. Evaluating QualiCO: An Ontology to Facilitate Qualitative Methods Sharing to Support Open Science, 20 January 2021, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-148261/v1]
   
 I used to following standards to comply with other work in the field:
-* Bibliographic information: [BiBo](https://github.com/structureddynamics/Bibliographic-Ontology-BIBO) and Dublin Core
+* Bibliographic information: [BiBo](https://github.com/structureddynamics/Bibliographic-Ontology-BIBO) and [Dublin Core](http://dublincore.org/)
 * research data description: [DDI](https://ddialliance.org/) and the [metadata schema by Verbund FDB](https://www.forschungsdaten-bildung.de/files/fdbinfo_8_Metadatenset_v1.0.pdf) (German association for research data in education)
 
 ## Structure
