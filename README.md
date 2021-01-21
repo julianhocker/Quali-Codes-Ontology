@@ -24,7 +24,7 @@ These metadata describe the coding schema. It also gives further information how
 |Author   |Person, who created the coding schema   |dc:creator   |text   |   |yes
 |ID | Identifier for the coding schema, preferably a DOI | dc:id | any kind of id | | yes
 |Method |Which method you used to create the codes, e.g. Grounded Theory with Strauss/Glaser or Strauss/Corbyn. |   |text/dropdown   |   |yes
-|Method comment |specify further how you used the method. Also describe how strictly you used these methods| | text |qualitative methods are quite diverse and people use them quite openly|no
+|Method comment |specify further how you used the method. Also describe how strictly you used these methods|dc:description | text |qualitative methods are quite diverse and people use them quite openly|no
 |Research area   |Where do you see this research?   |   |text   |   |yes
 |Theoretical background   |Which theories did you use, e.g. from psychology, sociology and which codes did you derive from these? |   |text  |   |yes
 |Research questions   |What were the research questions you wanted to answer? |   |text   |   |yes
@@ -44,7 +44,7 @@ These metadata describe the coding schema. It also gives further information how
 |Rights | statement of copyright for the coding schema (defined by research data center) | dc:rights| text| | no
 |Publisher | Name of the repository where coding schema is published | dc:publishder | text | | no
 
-I did not include dc:source, dc:relation, dc:coverage in this.
+I did not include dc:source, dc:relation, dc:coverage in this. There is no general comment in this class, so I put the dc:description to the method comment, which I think is the most important information
 
 ## Codes
 This describes the codes itself. I used as a basis the book 'The coding manual for qualitative researchers' by Saldana and the book 'qualitative content analysis in practice' by Schreier. THe goal here is to define a standard how codes should be described.
@@ -65,17 +65,17 @@ In interviews I got the feedback that it is important to get information about t
 
 |Name   |Description   |Link to standard vocabulary   | type of field   |Justification/background|Required|
 |---|---|---|---|---|---|
-|Name   |Name of the study   |   |text   |   | yes
-|Persons   |People who are involved in the project   |   |text|People mentioned that it makes sense to see who was involved to get a glimpse of how the ideas were |no
-|contact person   |People who can be contacted if there are questions   |   |text   |People mentioned in design phase II that it makes sense to have a person that they can contact and this is more important than the head of the project, which might be not involved that much  |yes
-|Institutions | Institutions who did the study | | text | |yes
-|Date   |When was the project active?   |  |text field/time span|important to see when the study was done |yes
-|Description   |Description of the study, contains research method and implication; research questions and goals; also theoretical background and if there were primary or secondary data |   |text   |  |yes
-|Link   |Link to webpage of the project where users can get more information |   |URL|It was mentioned that people want to get in contact and find out more about the study, therefore the link to the study |yes  
+|Name   |Name of the study   |dc:title   |text   |   | yes
+|Persons   |People who are involved in the project   |dc:contributor   |text|People mentioned that it makes sense to see who was involved to get a glimpse of how the ideas were |no
+|contact person   |People who can be contacted if there are questions   |dc:creator   |text   |People mentioned in design phase II that it makes sense to have a person that they can contact and this is more important than the head of the project, which might be not involved that much  |yes
+|Institutions | Institutions who did the study |dc:contributor | text | |yes
+|Date   |When was the project active?   |dc:date  |text field/time span|important to see when the study was done |yes
+|Description   |Description of the study, contains research method and implication; research questions and goals; also theoretical background and if there were primary or secondary data |dc:description   |text   |  |yes
+|Link   |Link to webpage of the project where users can get more information |dc:identifier   |URL|It was mentioned that people want to get in contact and find out more about the study, therefore the link to the study |yes  
 |Kind of study   |internal project/dissertation/third-party-funded |   |text/dropdown   |  | yes
 |Comment to kind of study | possibility to give further information | text | | yes
 |sub-studies | link to sub-studies that were part of this study | | link| Participants expressed need to link studies if they were part of larger studies|no
-|Keyword   |Keyword from a controlled vocabulary |   |text   |  |yes
+|Keyword   |Keyword from a controlled vocabulary |dc:subject   |text   |  |yes
 
 ## Publications
 These metadata help to identify the publication in which the coding schema was used. In my prototype I do not want to implement a complete literature management, only basic information, so people can find the publication. If you implement this ontology within a literature information system, you already have this information
@@ -95,12 +95,18 @@ Codes are often developed based on data, also data is sometimes created with cer
 
 |Name   |Description   |Link to standard vocabulary   |type of field   |Justification/background|Required|
 |---|---|---|---|---|---|
-|DOI   |The unique identifier of the data|   |DOI   |   |yes
+|DOI   |The unique identifier of the data|dc:identifier   |DOI   |   |yes
 |Creation of data| How data was created, e.g. interview, observation|DDI:ModeOfCollection|text/dropdown| |yes
 |Creation of data/comment | specify how you did your interviews | |text | | no 
+|Time of creation |Specifies when research data was created | dc:date | start date; end date | | yes
 |sampling|How did you select your test persons; what were the criteria? was sampling representative? | |text  | |yes
 |unit of analysis | describe demographic of participants and other information like status or job | | text||no
 |Instrument for creation|What you used to create the data, e.g. interview guidelines| |file | | yes
 |Research discipline|What is the background of the discipline you created the data?| |text | | no
-|Keyword   |Keyword from a controlled vocabulary |   |text   | |yes
+|Keyword   |Keyword from a controlled vocabulary |dc:subject   |text   | |yes
 |Postscripts | Postscripts are all kind of notes you took, after interviews or observations | | text/possibility to upload files |provide additional information to the research data| no
+|Language | Language in which the research data was created | cd:language | text| |yes
+|Format | Format of the research data |dc:format| text| | no
+|Type | Type of the data, if your format is qdpx, choose "dataset" | dc:type | text| | yes
+|Rights | statement of copyright for the research data (defined by research data center) | dc:rights| text| | no
+|Publisher | Name of the repository where data is published | dc:publishder | text | | no
