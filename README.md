@@ -38,11 +38,11 @@ These metadata describe the coding schema. It also gives further information how
 |Project as XML Project exchange file   |Possibility to upload complete coding frame via [REFI-QDA Project ](https://www.qdasoftware.org/products-project-exchange/)   |   |File   |   |no
 |Visualizations | Possibiilty to upload visualizations, e.g. maps if you used Situation analysis| |file |Visualizations are important ways to get an overview on the codes and can help others understand your codes | no
 |Keywords|Keywords for the research|for German: Thesaurus Bildungsforschung; dc:subject | text | |yes
-|Language | Language in which the coding schema was created | cd:language | text| |yes
+|Language | Language in which the coding schema was created | dc:language | text| |yes
 |Format | Format of the coding schema |dc:format| text, should be "qdpx"| | no
 |Type | Type of the data, if your format is qdpx, choose "dataset" | dc:type | text| | yes
 |Rights | statement of copyright for the coding schema (defined by research data center) | dc:rights| text| | no
-|Publisher | Name of the repository where coding schema is published | dc:publishder | text | | no
+|Publisher | Name of the repository where coding schema is published | dc:publisher | text | | no
 
 I did not include dc:source, dc:relation, dc:coverage in this. There is no general comment in this class, so I put the dc:description to the method comment, which I think is the most important information
 
