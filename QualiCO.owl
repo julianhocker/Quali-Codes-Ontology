@@ -1,0 +1,587 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/hocker/ontologies/2021/6/QualiCO"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/hocker/ontologies/2021/6/QualiCO">
+    <Prefix name="" IRI="http://www.semanticweb.org/hocker/ontologies/2021/6/QualiCO"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Anchor_example"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Author"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bibliographic_string"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Codes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coding_Schema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coding_cycles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coding_schema_as_QDA-XML"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comment_to_kind_of_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Count"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Counter_example"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Creation_of_data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DOI_of_publication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DOI_of_research_data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Description_of_coding_cycles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Excluding_criterion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Format"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Including_criterion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Institutions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instrument_for_creation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inter-coder_reliability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Keyword"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Keywords"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kind_of_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Link"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Method_comment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Number_of_connections_to_other_codes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Persons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Postscripts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Process_of_creation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Project_as_XML_Project_exchange_file"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provenence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publisher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research_area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research_data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research_discipline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research_questions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rights"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sampling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theoretical_background"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time_of_creation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title_Coding_Schema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title_of_Research_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title_of_Study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unit_of_analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Visualizations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#contact_person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sub-studies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Creation_of_data/comment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DC:Abstract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DC:Autor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DC:Title"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Anchor_example"/>
+        <Class IRI="#Codes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Author"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bibliographic_string"/>
+        <Class IRI="#Publications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Codes"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coding_cycles"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coding_schema_as_QDA-XML"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comment_to_kind_of_study"/>
+        <Class IRI="#Study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Count"/>
+        <Class IRI="#Codes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Counter_example"/>
+        <Class IRI="#Codes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Creation_of_data"/>
+        <Class IRI="#Research_data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DOI_of_publication"/>
+        <Class IRI="#Publications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DOI_of_research_data"/>
+        <Class IRI="#Research_data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Date"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Date"/>
+        <Class IRI="#Publications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Date"/>
+        <Class IRI="#Study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Description"/>
+        <Class IRI="#Study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Description_of_coding_cycles"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Excluding_criterion"/>
+        <Class IRI="#Codes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Format"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Format"/>
+        <Class IRI="#Research_data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ID"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Including_criterion"/>
+        <Class IRI="#Codes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Institutions"/>
+        <Class IRI="#Study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Instrument_for_creation"/>
+        <Class IRI="#Research_data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inter-coder_reliability"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Keyword"/>
+        <Class IRI="#Publications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Keyword"/>
+        <Class IRI="#Research_data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Keyword"/>
+        <Class IRI="#Study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Keywords"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kind_of_study"/>
+        <Class IRI="#Study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Language"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Language"/>
+        <Class IRI="#Research_data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Link"/>
+        <Class IRI="#Study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Method"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Method_comment"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Name"/>
+        <Class IRI="#Codes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Name"/>
+        <Class IRI="#Study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Number_of_connections_to_other_codes"/>
+        <Class IRI="#Codes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Persons"/>
+        <Class IRI="#Study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Postscripts"/>
+        <Class IRI="#Research_data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process_of_creation"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Project_as_XML_Project_exchange_file"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provenence"/>
+        <Class IRI="#Codes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Publisher"/>
+        <Class IRI="#Research_data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research_area"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research_discipline"/>
+        <Class IRI="#Research_data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research_questions"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rights"/>
+        <Class IRI="#Research_data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sampling"/>
+        <Class IRI="#Research_data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Theoretical_background"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time_of_creation"/>
+        <Class IRI="#Research_data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_Coding_Schema"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_of_Research_Data"/>
+        <Class IRI="#Research_data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_of_Study"/>
+        <Class IRI="#Study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type"/>
+        <Class IRI="#Research_data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unit_of_analysis"/>
+        <Class IRI="#Research_data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Visualizations"/>
+        <Class IRI="#Coding_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contact_person"/>
+        <Class IRI="#Study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sub-studies"/>
+        <Class IRI="#Study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Creation_of_data/comment"/>
+        <Class IRI="#Research_data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DC:Abstract"/>
+        <Class IRI="#Publications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DC:Autor"/>
+        <Class IRI="#Publications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DC:Title"/>
+        <Class IRI="#Publications"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Anchor_example"/>
+        <Class IRI="#Count"/>
+        <Class IRI="#Counter_example"/>
+        <Class IRI="#Excluding_criterion"/>
+        <Class IRI="#Including_criterion"/>
+        <Class IRI="#Name"/>
+        <Class IRI="#Number_of_connections_to_other_codes"/>
+        <Class IRI="#Provenence"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Coding_cycles"/>
+        <Class IRI="#Coding_schema_as_QDA-XML"/>
+        <Class IRI="#Date"/>
+        <Class IRI="#Description_of_coding_cycles"/>
+        <Class IRI="#Format"/>
+        <Class IRI="#ID"/>
+        <Class IRI="#Inter-coder_reliability"/>
+        <Class IRI="#Keywords"/>
+        <Class IRI="#Language"/>
+        <Class IRI="#Method"/>
+        <Class IRI="#Method_comment"/>
+        <Class IRI="#Process_of_creation"/>
+        <Class IRI="#Project_as_XML_Project_exchange_file"/>
+        <Class IRI="#Research_area"/>
+        <Class IRI="#Research_questions"/>
+        <Class IRI="#Software"/>
+        <Class IRI="#Theoretical_background"/>
+        <Class IRI="#Type"/>
+        <Class IRI="#Visualizations"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Comment_to_kind_of_study"/>
+        <Class IRI="#Date"/>
+        <Class IRI="#Description"/>
+        <Class IRI="#Institutions"/>
+        <Class IRI="#Keyword"/>
+        <Class IRI="#Kind_of_study"/>
+        <Class IRI="#Link"/>
+        <Class IRI="#Name"/>
+        <Class IRI="#Persons"/>
+        <Class IRI="#contact_person"/>
+        <Class IRI="#sub-studies"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Anchor_example</IRI>
+        <Literal>Example when code is used</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Author</IRI>
+        <AbbreviatedIRI>xsd:string</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Author</IRI>
+        <Literal>Title of the coding schema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Codes</IRI>
+        <Literal>This describes the codes itself. I used as a basis the book &apos;The coding manual for qualitative researchers&apos; by Saldana and the book &apos;qualitative content analysis in practice&apos; by Schreier. THe goal here is to define a standard how codes should be described.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Coding_Schema</IRI>
+        <Literal>These metadata describe the coding schema. It also gives further information how it was developed and how the coding was done. There is also the possibility to share your project data or your coding schema as REFI-QDA Project or REFI-QDA Codebook file.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Count</IRI>
+        <Literal>How often code was used in research project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Counter_example</IRI>
+        <Literal>Example when not to use this code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Excluding_criterion</IRI>
+        <Literal>When not to use the code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Including_criterion</IRI>
+        <Literal>What needs to be in the text to use this code.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Name</IRI>
+        <Literal>Name of the code.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Number_of_connections_to_other_codes</IRI>
+        <Literal>To how many other codes is the code connected in your coding schema in Grounded Theory?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Provenence</IRI>
+        <Literal>Where does code come from? How was the code created? What is it&apos;s theoretical grounding?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Publisher</IRI>
+        <Literal>Name of the repository where data is published</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Publisher</IRI>
+        <AbbreviatedIRI>xsd:string</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Publisher</IRI>
+        <Literal>dc:publisher</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Study</IRI>
+        <Literal>In interviews I got the feedback that it is important to get information about the overall study, in which the coding schema was created, like was this part of a larger study or just a small project. First, this was named project and then renamed to study because DDI as well as research data centers like Forschungsdatenzentum Bildung focus on studies rather than projects.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
