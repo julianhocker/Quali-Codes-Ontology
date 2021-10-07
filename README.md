@@ -1,10 +1,11 @@
 # Qualitative Codes Ontology (QualiCO)
 This describes the ontology I developed for qualitative coding schemas. This ontology describes qualitative coding schemas. It can be implemented easily. I kept the representation simple in an table, but might provide a version in RDF in the future. This is still work in progress, I also do some user testing on it. But if you encounter issues or have remarks I am happy to hear from you. Also if you want to implement it into your research data repository, I am happy to hear from you.
 
-There are two publications on this research out: 
+There are several publications on this research out: 
 * Julian Hocker, Taryn Bipat, Mark Zachry, and David W. McDonald. 2020. Sharing your coding schemas: Developing a Platform to fit within the Qualitative Research Workflow. In Proceedings of the 16th International Symposium on Open Collaboration (OpenSym 2020). Association for Computing Machinery, New York, NY, USA, Article 2, 1–10. DOI:https://doi.org/10.1145/3412569.3412574
-*  Hocker, J., Schindler, C. and Rittberger, M. (2020), "Participatory design for ontologies: a case study of an open science ontology for qualitative coding schemas", Aslib Journal of Information Management, Vol. 72 No. 4, pp. 671-685. https://doi.org/10.1108/AJIM-11-2019-0320 
-* Julian Hocker, Taryn Bipat, David W. McDonald et al. Evaluating QualiCO: An Ontology to Facilitate Qualitative Methods Sharing to Support Open Science, 20 January 2021, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-148261/v1]
+*  Julian Hocker, Christoph Schindler, Marc Rittberger. 2020. "Participatory design for ontologies: a case study of an open science ontology for qualitative coding schemas", Aslib Journal of Information Management, Vol. 72 No. 4, pp. 671-685. https://doi.org/10.1108/AJIM-11-2019-0320 
+* Julian Hocker, Taryn Bipat, David W. McDonald, Mark Zachry. 2021. Evaluating QualiCO: An Ontology to Facilitate Qualitative Methods Sharing to Support Open Science, https://doi.org/10.1186/s13174-021-00135-w
+* Julian Hocker, Christoph Schindler, Marc Rittberger. 2021. Developing an Ontology for Qualitative Coding Schemas − QualiCO: ECER 2021. https://doi.org/10.5281/zenodo.5550130
   
 I used to following standards to comply with other work in the field:
 * Bibliographic information: [BiBo](https://github.com/structureddynamics/Bibliographic-Ontology-BIBO) and [Dublin Core](http://dublincore.org/)
